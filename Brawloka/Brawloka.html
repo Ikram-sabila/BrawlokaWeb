@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Brawloka.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="Brawloka.js"></script>
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="Gambar/Brawloka.jpg" type="image/png" />
+    <title>BRAWLOKA</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <section class="home-main">
+      <nav class="navbar navbar-expand-lg navbar-dark static-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="Gambar/Brawloka.jpg" alt="..." height="80" />BRAWLOKA
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#Beranda" style="color: #ffff"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About Us" style="color: #ffff"
+                  >About-Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#struktur" style="color: #ffff"
+                  >Member</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Library" style="color: #ffff"
+                  >Library</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Reviews" style="color: #ffff"
+                  >Reviews</a
+                >
+              </li>
+              <!--<li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="color: #ffff"
+                >
+                  Account
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Log-In</a></li>
+                  <li><a class="dropdown-item" href="#">Sign-Up</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Log-Out</a>
+                  </li>
+                </ul>
+              </li>-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Navbar -->
+      <!-- Beranda -->
+      <div class="beranda" id="Beranda">
+        <div
+          id="carouselExampleControlsNoTouching"
+          class="carousel slide"
+          data-bs-touch="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+                class="d-block w-100"
+                alt="Gambar 1"
+              />
+              <div class="carousel-caption">
+                <h3>About us</h3>
+                <p style="font-size: xx-large">
+                  We are a vendor that caters to the needs of programs in
+                  different ministries and institutions within the Executive
+                  Student Organization. We provide a wide range of products and
+                  services to meet their requirements.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                class="d-block w-100"
+                alt="Gambar 2"
+              />
+              <div class="carousel-caption">
+                <h3>About us</h3>
+                <p style="font-size: xx-large">
+                  Our dedicated team works closely with the organization to
+                  understand their needs and deliver effective solutions.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1603202662852-aaa285a8ed76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+                class="d-block w-100"
+                alt="Gambar 3"
+              />
+              <div class="carousel-caption">
+                <h3>About us</h3>
+                <p style="font-size: xx-large">
+                  We prioritize quality and strive to ensure a smooth and
+                  satisfying experience for our clients. We take pride in our
+                  reliable and efficient support, contributing to the success of
+                  every program implemented by the Executive Student
+                  Organization.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+    <section class="about-section" id="About Us">
+      <div class="container">
+        <div class="row">
+          <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+            <div class="inner-column">
+              <div class="sec-title">
+                <span class="title">About BRAWIJAYA PRENEUR and BRAWLOKA</span>
+                <h2>Welcome to Brawloka</h2>
+              </div>
+              <div class="text">
+                Website ini merupakan bagian dari website Brawijaya Preneur,
+                silahkan jika ingin mengetahui lebih dalam mengenai Brawijaya
+                Preneur untuk langsung mengunjungi website tersebut.
+              </div>
+              <div class="text">
+                BRAWLOKA is a business brand of the Student Executive of
+                Universitas Brawijaya, a student-owned business entity that
+                operates in the field of tour guide services, tour guide
+                services and consumption for visits of external parties who wish
+                to visit Universitas Brawijaya. This program was created to make
+                it easier for external parties to visit and get consumption
+                without having to prepare it again.
+              </div>
+              <div class="btn-box">
+                <a
+                  href="https://www.instagram.com/brawloka/"
+                  class="theme-btn btn-style-one"
+                  >DM US</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="author-desc col-lg-6 col-md-12 col-sm-12 order-1">
+            <figure class="image-1">
+              <a href="#" class="lightbox-image" data-fancybox="images">
+                <img
+                  class="img1"
+                  src="https://st.depositphotos.com/2129603/3950/i/600/depositphotos_39503183-stock-photo-businesswoman-texting-on-mobile-phone.jpg"
+                  alt=""
+                  style="width: 100%; height: auto"
+                />
+              </a>
+              <a href="#" class="lightbox-image" data-fancybox="images">
+                <img
+                  class="img1"
+                  src="https://media.istockphoto.com/id/951514270/photo/glad-to-work-with-you.jpg?s=170667a&w=0&k=20&c=8R_S00P4S9KT9lNSQuEp7U6bOz8hM9QBirOKn8L9Exk="
+                  alt=""
+                  style="width: 100%; height: auto"
+                />
+              </a>
+            </figure>
+          </div>
+        </div>
+        <div class="sec-title">
+          <span class="title">Our Future Goal</span>
+          <h2>We want to lead in innovation & Technology</h2>
+        </div>
+        <div class="text">
+          <h3>📌VISION</h3>
+          Become a business entity that provides consumption and guide services
+          for outsiders who wish to visit Brawijaya University and prioritize
+          customer satisfaction.
+        </div>
+        <div class="text">
+          <h3>📌MISSION</h3>
+          Provide consumption for visitation activities Provide a tour guide for
+          the ease and smoothness of visitation activities Prioritizing customer
+          satisfaction with optimal performance Provide the best service
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h5 style="color: #f2be22">Our Product</h5>
+        <h3 style="line-height: 1.28em; padding-bottom: 20px">
+          List Product Brawloka
+        </h3>
+        <div class="produk">
+          <div class="lambang">
+            <img
+              src="https://i.pinimg.com/originals/f0/ca/90/f0ca90dd6924e009d86f4421cf2032b5.gif"
+              alt="Food Vendor"
+            />
+          </div>
+          <div class="vendor">
+            <h3>Food Vendor</h3>
+            <p>
+              Kami menyediakan beragam makanan dan minuman yang lezat dan
+              berkualitas untuk memenuhi kebutuhan acara dan kegiatan di
+              lingkungan organisasi EM UB. Dengan menu yang beragam, mulai dari
+              hidangan tradisional hingga makanan internasional, kami dapat
+              mengakomodasi berbagai preferensi dan selera. Makanan kami
+              disajikan dengan standar kebersihan dan kualitas yang tinggi,
+              memastikan pengalaman kuliner yang memuaskan bagi anggota
+              organisasi EM UB.
+            </p>
+          </div>
+        </div>
+        <div class="produk1">
+          <div class="vendor">
+            <h3>Equipment Vendor</h3>
+            <p>
+              Kami menyediakan berbagai peralatan dan perlengkapan yang
+              diperlukan untuk mendukung acara dan kegiatan di organisasi EM UB.
+              Kami menawarkan solusi peralatan berkualitas tinggi seperti
+              panggung, soundsystem, pencahayaan, proyektor, dan peralatan
+              lainnya. Peralatan kami didukung oleh tim profesional yang siap
+              membantu instalasi dan pemeliharaan selama acara. Dengan layanan
+              kami, Anda dapat mengandalkan peralatan berkualitas tinggi untuk
+              menjamin kesuksesan setiap acara atau kegiatan.
+            </p>
+          </div>
+          <div class="lambang">
+            <img
+              src="https://cdn.dribbble.com/users/996252/screenshots/4591358/device-animation.gif"
+              alt="Equipment Vendor"
+            />
+          </div>
+        </div>
+        <div class="produk">
+          <div class="lambang">
+            <img
+              src="https://static01.nyt.com/images/2018/12/14/autossell/dress/dress-jumbo-v3.gif"
+              alt="Clothing Vendor"
+            />
+          </div>
+          <div class="vendor">
+            <h3>Clothing Vendor</h3>
+            <p>
+              Kami menyediakan pilihan pakaian berkualitas tinggi yang dirancang
+              khusus untuk organisasi EM UB. Dengan berbagai desain dan gaya,
+              kami menawarkan koleksi pakaian yang stylish dan sesuai dengan
+              citra dan identitas organisasi. Mulai dari kaos, jaket, topi,
+              hingga aksesoris, produk kami memenuhi standar kualitas dan
+              kenyamanan yang tinggi. Kami juga dapat memberikan opsi
+              kustomisasi untuk memenuhi kebutuhan dan preferensi organisasi EM
+              UB dalam hal pakaian yang representatif dan unik.
+            </p>
+          </div>
+        </div>
+        <div class="produk1">
+          <div class="vendor">
+            <h3>Tansportation Vendor</h3>
+            <p>
+              Kami menyediakan layanan transportasi yang dapat diandalkan dan
+              nyaman untuk memenuhi kebutuhan mobilitas anggota organisasi EM
+              UB. Kami menyediakan armada kendaraan yang terawat dengan baik,
+              termasuk mobil dan bus dengan berbagai kapasitas. Layanan kami
+              mencakup penyediaan kendaraan untuk kegiatan lapangan, kunjungan,
+              atau acara organisasi. Dengan tim pengemudi yang profesional dan
+              berpengalaman, kami memastikan perjalanan yang aman dan nyaman
+              bagi anggota organisasi EM UB.
+            </p>
+          </div>
+          <div class="lambang">
+            <img
+              src="https://i.gifer.com/origin/e2/e203e9712a8418b4785faa45a6ec3d60_w200.gif"
+              alt="Transportation Vendor"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Steps -->
+    <section class="step">
+      <div class="container">
+        <h5 style="color: #f2be22">Langkah - langkah penting</h5>
+        <h3>THE STEPS</h3>
+        <div class="steps">
+          <img src="Gambar/ORDER1.png.jpg" alt="steps" />
+        </div>
+      </div>
+    </section>
+    <!-- SOP -->
+    <section class="SOP">
+      <div class="container">
+        <h5 style="color: #f2be22">Standart operating procedur</h5>
+        <h3>SOP</h3>
+        <div class="container2">
+          <div class="sopg">
+            <img
+              src="https://images.unsplash.com/photo-1564846824194-346b7871b855?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+              alt="SOP"
+            />
+          </div>
+          <div class="sop">
+            <h5>Peralatan (Sound System, HT, Kamera, Proyektor, Kursi, dll)</h5>
+            <ul>
+              <li>
+                Memberikan keterangan alat yang diinginkan, misal spesifikasi
+                kamera sesuai kebutuhan, macam-macam sound system yang
+                dibutuhkan, dsb.
+              </li>
+              <li>Melakukan pemesanan paling lambat H-5 acara berlangsung.</li>
+              <li>
+                Melakukan pembayaran maksimal H+3 setelah pesanan diberikan.
+              </li>
+            </ul>
+            <h5>Id Card, Lanyard, Banner</h5>
+            <ul>
+              <li>Melakukan pemesanan paling lambat H-7 acara berlangsung</li>
+              <li>
+                Memberikan keterangan Id card dan lanyard yang diinginkan
+                (Jumlah, Design, Lanyard: sisi, lebar, dan Panjang, dan Banner:
+                Ukuran dan Kualitas).
+              </li>
+              <li>
+                Melakukan pembayaran maksimal H+3 setelah pesanan diberikan.
+              </li>
+            </ul>
+            <h5>Seragam</h5>
+            <ul>
+              <li>Melakukan pemesanan paling lambat H-15 acara berlangsung.</li>
+              <li>
+                Memberikan keterangan seragam yang di pesan (Jumlah, Model,
+                Design, Ukuran).
+              </li>
+              <li>
+                Melakukan pembayaran maksimal H+3 setelah pesanan diberikan.
+              </li>
+            </ul>
+            <h5>Makanan (Nasi box dan snack)</h5>
+            <ul>
+              <li>Melakukan pemesanan paling lambat H-5 acara berlangsung.</li>
+              <li>Minimum pemesanan 20 pack untuk nasi box</li>
+              <li>Minimum pemesanan 15 pack untuk snack.</li>
+              <li>
+                Melakukan pembayaran maksimal H+3 setelah pesanan diberikan.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container2">
+          <div class="sop">
+            <h5>Sewa Kendaraan (Khusus area malang)</h5>
+            <ul>
+              <li>Melakukan pemesanan paling lambat H-7 acara berlangsung.</li>
+              <li>
+                Melakukan pembayaran maksimal H+3 setelah pesanan diberikan.
+              </li>
+            </ul>
+            <h5>Payment</h5>
+            <ul>
+              <li>
+                Pembayaran dilakukan maksimal 3 hari setelah pesanan diberikan.
+              </li>
+              <li>
+                Pencicilan dapat dilakukan dengan konfirmasi terlebih dahulu
+                kepada pihak brawloka.
+              </li>
+            </ul>
+            <h5>Goods Not Provided</h5>
+            <ol>
+              <li>Transportasi ke luar malang</li>
+              <li>Pengadaan makanan/merchandise untuk danusan.</li>
+              <li>ATK/Fotokopi/Print</li>
+            </ol>
+          </div>
+          <div class="sopg1">
+            <img
+              src="https://images.unsplash.com/photo-1554252116-2edd5365536b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              alt="sop"
+            />
+          </div>
+        </div>
+        <h5 style="padding-top: 40px; padding-bottom: 20px; text-align: center">
+          Jika kamu tertarik dengan produk kami silahkan klik tombol dibawah ini
+        </h5>
+        <div class="now">
+          <button class="order">
+            <a href="#" style="color: #ffff">ORDER NOW</a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Member -->
+    <section id="struktur" class="struktur">
+      <div class="container">
+        <h2 class="section-title">Struktur Anggota</h2>
+        <div class="member">
+          <div class="member-item">
+            <img
+              src="https://politics.princeton.edu/sites/default/files/styles/square/public/images/p-5.jpeg?h=87dbaab7&itok=ub6jAL5Q"
+              alt="Anggota 1"
+            />
+            <h3 class="member-name">Anggota 1</h3>
+            <p class="member-role">FOUNDER</p>
+          </div>
+        </div>
+        <div class="member">
+          <div class="member-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz_X_F246oI3w3UiGgjYE9e-m3BtTqU_9cLnfYX3fbrwbQ4qqXx4iIA_dO1l6cIrhFZTs&usqp=CAU"
+              alt="Anggota 2"
+            />
+            <h3 class="member-name">Anggota 2</h3>
+            <p class="member-role">CO FOUNDER</p>
+          </div>
+          <div class="member-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz_X_F246oI3w3UiGgjYE9e-m3BtTqU_9cLnfYX3fbrwbQ4qqXx4iIA_dO1l6cIrhFZTs&usqp=CAU"
+              alt="Anggota 2"
+            />
+            <h3 class="member-name">Anggota 3</h3>
+            <p class="member-role">CO FOUNDER</p>
+          </div>
+        </div>
+        <div class="member">
+          <div class="member-item">
+            <img src="Gambar/Irza.jpg" alt="Anggota 3" />
+            <h3 class="member-name">Irza</h3>
+            <p class="member-role">CEO</p>
+          </div>
+        </div>
+        <div class="member">
+          <div class="member-item">
+            <img src="Gambar/Rafa.jpg" alt="Anggota 4" />
+            <h3 class="member-name">Rafa</h3>
+            <p class="member-role">COO</p>
+          </div>
+          <div class="member-item">
+            <img src="Gambar/Prima .jpg" alt="Anggota 5" />
+            <h3 class="member-name">Prima</h3>
+            <p class="member-role">CFAO</p>
+          </div>
+          <div class="member-item">
+            <img src="Gambar/Mita.jpg" alt="Anggota 6" />
+            <h3 class="member-name">Mita</h3>
+            <p class="member-role">CMO</p>
+          </div>
+          <div class="member-item">
+            <img src="Gambar/Aryanta.jpg" alt="Anggota 7" />
+            <h3 class="member-name">Aryanta</h3>
+            <p class="member-role">CSO</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Library -->
+    <section class="library" id="Library">
+      <div class="container">
+        <h1 style="padding-left: 20px"><b>LIBRARY</b></h1>
+        <div class="container3">
+          <div class="gambarli">
+            <img
+              src="Gambar/Pemesanan pada acara BTB (SOSMA) 24062023.jpeg"
+              alt="gambar"
+            />
+          </div>
+          <div class="gambarli">
+            <img
+              src="Gambar/Pemesanan pada acara BTB (SOSMA) 25062023.jpeg"
+              alt="gambar"
+            />
+          </div>
+          <div class="gambarli">
+            <img
+              src="Gambar/Pemesanan pada acara Peduli Makan (LH) 24062023.jpeg"
+              alt="gambar"
+            />
+          </div>
+        </div>
+        <div class="container3">
+          <div class="gambarli">
+            <img
+              src="Gambar/Pemesanan pada acara Visitasi Malaysia (LUGRI) 2.jpeg"
+              alt="gambar"
+            />
+          </div>
+          <div class="gambarli">
+            <img
+              src="Gambar/Pemesanan pada acara Visitasi Malaysia (LUGRI) 3.jpeg"
+              alt="gambar"
+            />
+          </div>
+          <div class="gambarli">
+            <img
+              src="Gambar/Pemesanan pada acara Visitasi Malaysia (LUGRI).jpeg"
+              alt="gambar"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Reviews -->
+    <section class="reviews" id="Reviews">
+      <div class="container">
+        <h1 style="padding-left: 20px"><b>REVIEWS</b></h1>
+        <div class="container2">
+          <div class="orang">
+            <p class="pesan"><b>Keren</b></p>
+            <p class="pesan">
+              "Makanan yang disediakan oleh Brawloka sangat lezat dan beragam.
+              Mereka selalu menyajikan hidangan yang segar dan berkualitas
+              tinggi. Pelayanan mereka juga sangat ramah dan responsif. Saya
+              sangat puas dengan pengalaman kuliner bersama mereka!"
+            </p>
+            <div class="profile" style="padding-top: 100px;">
+              <div class="nama-container">
+                <p class="nama">Mentri Sosial Masyarakat</p>
+                <p class="nama1"><i>Universitas Brawijaya</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="oorang">
+            <div class="orang1">
+              <p class="pesan"><b>Biasa aja ahh</b></p>
+              <p class="pesan">
+                "Peralatan yang disediakan oleh Brawloka sangat memenuhi harapan
+                kami. Panggung dan soundsystem yang mereka pasang sempurna untuk
+                acara kami. Tim mereka sangat profesional dan membantu kami
+                dengan instalasi dan pengaturan peralatan. Kami sangat
+                merekomendasikan jasa mereka!"
+              </p>
+              <div class="profile">
+                <div class="nama-container">
+                  <p class="nama">Mentri PSDM</p>
+                  <p class="nama1"><i>Universitas Brawijaya</i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container2">
+          <div class="orang2">
+            <p class="pesan"><b>Jelek Banget</b></p>
+            <p class="pesan">
+              "Vendor Pakaian memiliki koleksi pakaian yang keren dan
+              berkualitas tinggi. Desainnya sangat sesuai dengan citra dan
+              identitas organisasi kami. Kami sangat senang dengan kualitas
+              produk dan layanan yang diberikan. Pakaian mereka benar-benar
+              membuat anggota EM UB terlihat stylish!"
+            </p>
+            <div class="profile">
+              <div class="nama-container">
+                <p class="nama">Mentri BM</p>
+                <p class="nama1"><i>Universitas Brawijaya</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="orang2" style="background-color: #ffff;">
+            <p class="pesan"><b>Lumayan enak</b></p>
+            <p class="pesan">
+              "Layanan transportasi yang diberikan oleh Transportation Vendor
+              sangat andal. Armada kendaraan mereka bersih, nyaman, dan selalu
+              tepat waktu. Pengemudi mereka sangat profesional dan mengutamakan
+              keselamatan kami. Kami merasa aman dan nyaman selama perjalanan
+              bersama mereka. Terima kasih atas layanan yang luar biasa!"
+            </p>
+            <div class="profile">
+              <div class="nama-container">
+                <p class="nama">Mentri Luar Negri</p>
+                <p class="nama1"><i>Universitas Brawijaya</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer style="background-color: #222222">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-9 col-md-12 mb-4">
+            <h5 class="mb-3" style="color: bisque">Brawloka</h5>
+            <p style="color: bisque">
+              Website ini merupakan bagian dari website Brawijaya Preneur,
+              silahkan jika ingin mengetahui lebih dalam mengenai Brawijaya
+              Preneur untuk langsung mengunjungi website tersebut.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="mb-3" style="text-align: right; color: bisque">
+              Contacts
+            </h5>
+            <ul class="list-unstyled mb-0" style="text-align: right">
+              <li class="mb-1">
+                <a
+                  href="https://www.instagram.com/brawloka/"
+                  style="color: #f7ffe5"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center p-3"
+        style="background-color: #E1ECC8(0, 0, 0, 0.2)"
+      >
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
